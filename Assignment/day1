@@ -1,3 +1,16 @@
+// Develop a Warehouse Inventory Management System using C++ to simulate how industries manage and track their inventory.
+The program should enable users to add new items to the inventory, update stock levels, track inventory movement, and
+generate reports.
+Each item in the inventory should be represented as an object with attributes like a unique item ID, name, category,
+quantity, and reorder level.
+The system should include functionality to alert the user when stock levels fall below the reorder threshold.
+A menu-driven interface should allow users to perform operations such as viewing inventory, searching for items
+by name or category, and exporting inventory data to a file for record-keeping.
+This assignment is designed to mirror real-world inventory management systems used in industries like retail, manufacturing, and logistics,
+providing hands-on experience with object-oriented design, file handling, and user interaction in C++.//
+
+
+
 #include <iostream>
 #include <vector>
 #include <fstream>
